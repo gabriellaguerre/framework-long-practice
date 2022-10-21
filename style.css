@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+    background-image: url("https://static.wikia.nocookie.net/rickandmorty/images/4/41/Pickle_rick_transparent_edgetrimmed.png");
+  
+    background-position: center;
+    background-size: 30%;
+
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+  .nav-btn {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+  .information {
+    margin: 20px;
+    border: 20px;
+    display: flexbox;
+    flex-wrap: wrap;
+    width: auto;
+    height: 500px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .picklebattle {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+
+  }
+  .information p {
+    display: flexbox;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
